@@ -1,3 +1,6 @@
+#ifndef MAKEGRAPH_HPP
+#define MAKEGRAPH_HPP
+
 #include <bits/stdc++.h>
 
 struct edge {
@@ -95,3 +98,5 @@ Graph MakeGraph_Star(int node, int seed) {
     }
     return graph;
 }
+
+#endif
